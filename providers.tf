@@ -15,8 +15,4 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "Subscription ID"
-  client_id       = "Client ID"
-  client_secret   = "Password of Service Principal"
-  tenant_id       = "Tenant ID"
 }
