@@ -112,8 +112,8 @@ resource "azurerm_virtual_machine" "wp3arch" {
 
    os_profile {
      computer_name  = "wp3arch"
-     admin_username = "admin"
-     admin_password = "Password1234!"
+     admin_username = "adminuser"
+     admin_password = "Admin12345678"
    }
 
    os_profile_linux_config {
